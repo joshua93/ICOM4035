@@ -7,6 +7,7 @@ public class CirclaAreaCalculatorMain {
 		radious = 3;
 		area = 2*Math.PI*Math.pow(radious, 2);
 		System.out.println("The area of a circle with radious "+radious+" is: "+area);
+		System.out.println("The half area of a circle with radious "+radious+" is: "+area/2);
 	}
 
 }
